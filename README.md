@@ -1,11 +1,12 @@
 # Simple File Server Nginx
-Step-1 Make a Directory 
+## Step by step Guide
+### Step-1 Make a Directory 
 - ``mkdir fileserver``
   
-Step-2 Go to that Directory
+### Step-2 Go to that Directory
 - ``cd fileserver``
   
-Step-3 Make a file
+### Step-3 Make a file
 - ``nano default.config``
 
 
@@ -54,7 +55,7 @@ server {
     #}
 }
 ````
-Step-5 Create a Docker Compose File
+### Step-5 Create a Docker Compose File
 - ````nano docker-compose.yml````
 
 ## Step-6 copy paste this section
@@ -69,13 +70,13 @@ services:
     ports:
       - 80:80
 ````
-Step-7 Create a Directory named data 
+### Step-7 Create a Directory named data 
 - ``mkdir data``
 
-Step-8 Use this cmd to pull img
+### Step-8 Use this cmd to pull img
 - ``docker-compose pull``
 
-Step-9 Use this cmd to create a container
+### Step-9 Use this cmd to create a container
 - ``docker-compose up -d``
 
 ##you can upoload ,download ,create folder ,delete folder files using filezilla
