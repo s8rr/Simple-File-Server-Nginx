@@ -1,5 +1,4 @@
 # Simple File Server Nginx
-## Step by step Guide
 ### Step-1 Make a Directory 
 - ``mkdir fileserver``
   
