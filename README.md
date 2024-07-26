@@ -83,13 +83,13 @@ mkdir data
 ```
 
 ### Step-8 Use this cmd to pull img
-``
+```
 docker-compose pull
-``
+```
 
 ### Step-9 Use this cmd to create a container
-``
+```
 docker-compose up -d
-``
+```
 
 ##you can upoload ,download ,create folder ,delete folder files using filezilla
